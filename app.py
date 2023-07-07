@@ -9,7 +9,7 @@ app.config['SECRET_KEY'] = "clavesecreta"
 
 #Create a Form Class
 class NamerForm(FlaskForm):
-      name = StringField("What's Yout Name", validators=[DataRequired()])
+      name = StringField("What's Your Name?!", validators=[DataRequired()])
       submit = SubmitField("Submit")
 
 
